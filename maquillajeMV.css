@@ -1,0 +1,171 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5/03/2020, 08:48:11 PM
+    Author     : Estradajdl
+*/
+
+@font-face{
+    font-family: "Museo"; 
+    src: url("../media/Museo700-Regular.otf");
+}  
+
+hmtl, body{
+    
+    height: 100%;
+     background:white;
+}
+
+header{
+    display: block;
+   /* background: greenyellow;*/
+    padding: 10px 0px;
+    text-align: center;
+     background:white;
+    /*background-image: url(img/Texturas_0563.jpg);*/
+    
+}
+
+section{
+    
+    width: 79%;
+    float:left;
+    
+    padding-left: 100px;
+    overflow: auto;
+    
+    padding-bottom: 60px;
+    padding-top: 30px;
+    text-align: center;
+     background:white;
+   /* background-image: url(img/Texturas_0563.jpg);*/
+   
+}
+
+#texto1{
+    background: white;
+    
+}
+
+#contenedor{
+border: thick solid #000;    
+}
+
+#texto2{
+    float:left;
+    width:50%;
+     padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+#texto3{
+    float:right;
+    width:50%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+aside{
+    
+    width: 18%;
+	height: auto; /*350px*/
+	padding: 10px 1%;
+	float: left;
+       /* background-image: url(img/Texturas_0563.jpg);*/
+         background: white;
+	display: block; }
+ 
+	#columna h3 {
+		font: bold 100% verdana, tahoma, sans-serif;
+		color: #169;
+		text-align: center;
+		margin: 0;
+		padding: 0 10px 5px 15px; }
+ 
+	#columna ul {
+                
+		list-style: circle;
+		padding: 0 0 0 25px;
+		margin: 0;
+                
+        }
+        
+        #columna li  a {
+                 
+		color: #169;
+		text-decoration: none;
+		font-size: 100%; 
+                 
+        }
+ 
+       
+		#columna li a:hover {
+                        color: #f60;
+			text-decoration: underline; }
+
+ 
+                
+                
+                
+.col {
+	width: 100%;
+	background: url(img/medcol.jpg) repeat-y; }
+ 
+.topcol {
+	width: 100%;
+	height: 20px;
+	background: url(img/col.jpg) top left no-repeat; }
+ 
+.botcol {
+	width: 100%;
+	height: 20px;
+	background: url(img/col.jpg) bottom left no-repeat;
+	margin-bottom: 5px; }
+ 
+.topcolr {
+	width: 100%;
+	height: 20px;
+	background: url(img/colr.jpg) top right no-repeat; }
+ 
+.botcolr {
+	width: 100%;
+	height: 20px;
+	background: url(img/colr.jpg) bottom right no-repeat; }
+ 
+.colr {
+	width: 100%;
+	background: url(img/medcolr.jpg) right repeat-y; }
+
+
+#Menu ul {display:none;}
+#Menu { list-style:none;}
+#Menu li:hover > ul {display:block;}
+
+/*
+aside{
+    
+    float:right;
+    border: 5px solid red;
+    width: 19%;
+     background-image: url(img/Texturas_0139.jpg);
+ background-repeat: repeat;  
+}*/
+
+
+footer{
+    position: relative;
+    margin-top: 40px;
+    height: 100px;
+    padding: 5px 0px;
+    clear: both;
+   /* background: aquamarine;*/
+    text-align: center;
+     background-image: url(img/Texturas_0563.jpg);
+ background-repeat: repeat;  
+    
+}
